@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Diego Olivera — Junior Developer Full Stack Portfolio
 
-## Getting Started
+![Portfolio Preview](./public/preview.png)
 
-First, run the development server:
+> **Live Demo:** [diego-olivera.vercel.app](https://diego-olivera.vercel.app)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Un portafolio profesional minimalista, enfocado en el rendimiento y diseñado para destacar la experiencia de usuario (UX) y el impacto técnico. Construido para demostrar habilidades avanzadas de frontend y arquitectura moderna.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ⚡ Stack Tecnológico
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+El proyecto está desarrollado utilizando herramientas modernas orientadas al rendimiento y la escalabilidad:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+*   **Framework Base:** [Next.js](https://nextjs.org/) (App Router)
+*   **Lenguaje:** TypeScript
+*   **Estilos:** [Tailwind CSS](https://tailwindcss.com/)
+*   **Animaciones:** [Framer Motion](https://www.framer.com/motion/)
+*   **Despliegue:** [Vercel](https://vercel.com/)
 
-## Learn More
+## 🏗️ Arquitectura y Características Destacadas
 
-To learn more about Next.js, take a look at the following resources:
+*   **Fondo Interactivo (Spotlight Grid):** Máscara CSS dinámica y `radial-gradient` que rastrea la posición del cursor utilizando eventos de estado en React.
+*   **Renderizado de Componentes Híbridos:** Mezcla óptima de Componentes de Servidor (velocidad de carga y SEO) y Componentes de Cliente (animaciones con Framer Motion).
+*   **Estructura Semántica y Accesibilidad:** Navegación *sticky* fuera del flujo principal, manejo adecuado de estados y etiquetas semánticas para mejorar el alcance orgánico.
+*   **Diseño Totalmente Responsivo:** Transiciones fluidas entre CSS Grid (Desktop) y Flexbox (Móvil) para garantizar integridad visual en todos los dispositivos.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🚀 Instalación y Desarrollo Local
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Si deseas clonar el proyecto para explorarlo o usarlo como base:
 
-## Deploy on Vercel
+1. Clona el repositorio:
+   ```bash
+   git clone [https://github.com/devDOlivera/tu-repo.git](https://github.com/devDOlivera/tu-repo.git)
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2. Instala las dependencias:
+   ```bash
+   npm install
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+3. Inicia el servidor de desarrollo:
+   ```
+   npm run dev
+   ```
+
+4. Abre <http://localhost:3000> en tu navegador.
+
+## 🎯 Sobre el Autor
+
+Soy un desarrollador full stack de Catamarca, Argentina. Me enfoco en construir sistemas rápidos y confiables, herramientas para comercios e infraestructura distribuida. Constantemente investigo nuevas tecnologías para compartir aprendizajes técnicos y aportar valor estratégico más allá de la simple escritura de código.
+
+- **Email:** diegoolivera539@gmail.com
+- **GitHub:** @devDOlivera
+
+*Diseñado e implementado por Diego Olivera © 2026*
